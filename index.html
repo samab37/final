@@ -4,16 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+    <nav class="px-10 pt-6 text-lg">
+      <ul class="flex items-center justify-center gap-15 text-[30px]">
+        <li>
+          <img src="logo.svg" alt="Sam Abele Logo" class="h-40">
+        </li>
+        <li><a href="index.html" class="font-bold underline">Home</a></li>
+        <li><a href="projects.html" class="font-bold">Projects</a></li>
+        <li><a href="#" class="font-bold">Resume</a></li>
       </ul>
     </nav>
+    <main class="w-4/5 mx-auto">
+      <h1 class="text-[44px] font-bold text-[#FB5012] text-center py-20">Hi! I'm a UX Designer and Accessibility Specialist focused on instructional design, user research, and inclusive digital experiences.</h1>
+      <div class="flex items-center gap-15 bg-[#E8F1F6] rounded-[20px] p-13">
+        <img src="Frame 3.png" class="h-100" alt="Sam smiling in front of Lake Michigan">
+        <div>
+          <h2 class="text-center mb-6 text-[40px]">About Me</h2>
+          <p>Currently, I work at Michigan State University in IT's Educational Technology Department. Over the past 2.5 years, I have developed trainings, led workshops, and supported faculty and staff through consultations focused on digital accessibility. I earned my bachelor’s degree in Web Design from MSU, where I also completed internships updating and remediating online content across the university. I am currently pursuing a master’s degree in User Experience at MSU and plan to graduate in Spring 2027.</p>
+        </div>
+      </div>
+      <div>
+        <h2 class="text-center mt-15 text-[40px]">Check Out My Featured Projects!</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-15">
+          <div class="border-[3px] border-[#9FB9C9] rounded-[20px] p-6">
+            <h3 class="text-[30px] font-bold">Disability and Accessibility Policies Training</h3>
+            <p class="mt-6">An asynchronous training built for all MSU Faculty and Staff.</p>
+            <a href="project1.html" class="viewproject">View Project</a>
+          </div>
+          <div class="border-[3px] border-[#9FB9C9] rounded-[20px] p-6">
+            <h3 class="text-[30px] font-bold">Digital Accessibility for Educators Course</h3>
+            <p class="mt-6">An asynchronous training built for MSU Faculty based off MSU's Basic Accessibility Checklist.</p>
+            <a href="project1.html" class="viewproject">View Project</a>
+          </div>
+        </div>
+      </div>
+          <h2 class="text-center mb-6 mt-15 text-[40px]">Learning & Development</h2>
+        <div class="flex items-center gap-8 bg-[#E8F1F6] rounded-[20px] p-13 mt-15">
+        <div>
+          <h3 class="text-[30px] font-bold mb-6">Conferences & Events</h3>
+          <ul class="list-disc pl-5 text-[20px]">
+            <li>Axe-Con (2022-2026)</li>
+            <li>D2L Fusion (2024)</li>
+            <li>Accessing Higher Grounds (2023)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex items-center gap-8 bg-[#E8F1F6] rounded-[20px] p-13 mt-15">
+        <div>
+          <h3 class="text-[30px] font-bold mb-6">Courses & Certification</h3>
+          <ul class="list-disc pl-5 text-[20px]">
+            <li>Accessibility Fundamentals 2.0 (Deque University, September 2023)</li>
+            <li>Document Accessibility 1.2 (Deque University, September 2023)</li>
+            <li>Apply the QM Rubric (QM Quality Matters, January 2024)</li>
+            <li>Accessible Course Design Using WCAG (OLC, Febuary 2024)</li>
+            <li>Professional Foundations: Researching, Collaborating, and Networking (OLC, Febuary 2025)</li>
+            <li>Helping Faculty with New Course Development (OLC, March 2025)</li>
+            <li>Curating and Evaluating Resources for Faculty (OLC, May 2025)</li>
+            <li>OLC Course Quality Review (OSCQR) Trainer (OLC, June 2025)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex justify-center gap-8 bg-[#333333] rounded-[20px] p-13 mt-15 text-center mb-20">
+        <div>
+          <h2 class="mb-6 text-white text-[40px]">Let's Connect</h2>
+          <a href="https://www.linkedin.com/in/-sam-abele" class="linkedin">Sam's LinkedIn</a>
+      </div>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>

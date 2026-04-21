@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disability and Accessibility Policies Trainings</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <nav class="px-10 pt-6 text-lg">
+      <ul class="flex items-center justify-center gap-15 text-[30px]">
+        <li>
+          <img src="logo.svg" alt="Sam Abele Logo" class="h-40">
+        </li>
+        <li><a href="index.html" class="font-bold">Home</a></li>
+        <li><a href="projects.html" class="font-bold">Projects</a></li>
+        <li><a href="#" class="font-bold">Resume</a></li>
+      </ul>
+    </nav>
+    <main class="w-4/5 mx-auto">
+        <div class="text-center pt-20">
+        <img src="project1.png" alt="Screenshot of MSU's Disability and Accessibility Policies Trainings" class="w-200 items-center mx-auto block">
+      <h1 class="text-[44px] font-bold text-[#FB5012] text-center py-15" >Disability and Accessibility Policies Training</h1>
+      </div>
+      <div class="items-center gap-8 bg-[#E4E2E2] rounded-[20px] p-13">
+        <h2 class="text-center mb-6 text-[40px]">Project Overview</h2>
+        <p class="text-[20px] mt-6"><span class="font-bold">Project Type:</span> Asynchronous Training</p>
+        <p class="text-[20px] mt-6"><span class="font-bold">Tools Used:</span> Adobe Captivate, Ability LMS, Google Drive, & Google Drawings</p>
+        <p class="text-[20px] mt-6"><span class="font-bold">My Role:</span> Instructional Designer & Accessibility Specialist</p>
+        <p class="text-[20px] mt-6"><span class="font-bold">Audience:</span> Faculty and Staff</p>
+        <p class="text-[20px] mt-6"><span class="font-bold">Status:</span> Launched Fall 2025</p>
+      </div>
+      <div class="mt-15 w-4/5 mx-auto">
+        <h2 class="text-center mb-6 text-[40px]">Project Description</h2>
+        <p class="text-[20px]">
+            New federal requirements under ADA Title II mandated that all digital content at public higher education institutions meet WCAG 2.1 accessibility standards. Beyond compliance, there was a recognized gap in faculty and staff awareness of both digital accessibility practices and existing accommodation procedures. The need was identified and championed by the Office for Civil Rights and Title IX Education and Compliance, making this a high-stakes, institution-wide initiative.
+            <br><br>
+            The primary audience was all higher education faculty and staff, a broad and mixed-knowledge group. The training was designed assuming little to no prior accessibility knowledge, while remaining relevant to those with more experience. Because the audience included people taking the training independently across different devices, browsers, and assistive technologies, designing for diverse access needs was not just a consideration but a core requirement. Learners ranged from classroom faculty managing student accommodations to supervisors navigating employee accommodation processes, each with distinct roles and responsibilities.
+        </p>
+        <h3 class="text-[30px] font-bold mt-15 mb-6 text-[#FB5012]">By completing this training, learners are able to:</h3>
+        <ul class="list-disc pl-5 text-[20px]">
+            <li class="mb-6">Recognize MSU's obligations under federal and state disability laws and the purpose of its accessibility policies.</li>
+            <li class="mb-6">Implement student accommodation letters and refer students to appropriate disability resources.</li>
+            <li class="mb-6">Navigate the employee accommodation request process and understand associated rights and responsibilities.</li>
+            <li class="mb-6">Apply foundational digital accessibility principles to course materials, documents, and digital conten.t</li>
+        </ul>
+        <h3 class="text-[30px] font-bold mt-15 mb-6 text-[#FB5012]">Accessibility was treated as a design requirement from day one, not a final checklist.</h3>
+        <p class="text-[20px] font-bold mb-6"> Key decisions included:</p>
+        <ul class="list-disc pl-5 text-[20px]">
+            <li class="mb-6"><strong>Widget Vetting:</strong> Before building began, I tested Captivate's interactive components with a screen reader and keyboard to identify which widgets were accessible and which had hard limitations, shaping tool choices for the entire course.</li>
+            <li class="mb-6"><strong>Keyboard Focus:</strong> I identified that Captivate's default keyboard focus indicator was too small and low-contrast for WCAG compliance, so I went into the HTML directly to increase its size and contrast ratio.</li>
+            <li class="mb-6"><strong>Original Imagery:</strong> I created custom graphics for Module 3 using Google Drawings to visually illustrate accessibility concepts including alt text, heading structure, and captions, ensuring the visuals themselves were purposeful and on-topic.</li>
+            <li class="mb-6"><strong>Multi-Platform Testing:</strong> The course was tested across screen readers, keyboard-only navigation, Android and iOS devices, and multiple browsers to verify a consistent, accessible experience.</li>
+        </ul>
+        <h2 class="text-center mb-6 text-[40px]">Challenges & Decisions</h2>
+        <p class="text-[20px]">
+            The team faced several compounding challenges. Adobe Captivate was a brand-new tool for all three IDs, chosen for budget reasons. It came with a steep learning curve and significant limitations. The platform offered limited customization options, and after testing Captivate's interactive widgets for accessibility early in the project, it became clear that many were not compatible with screen readers or keyboard navigation, with no built-in way to fix them. This narrowed our already limited design options further. On top of that, Captivate proved unstable across the team's devices, with the software eventually crashing for two of the three IDs, requiring us to adapt our entire collaboration workflow mid-project
+            <br><br>
+            Each challenge was met with a practical workaround. Early in the project, I documented which Captivate widgets passed accessibility testing and created a working list the team used throughout the build, so we never wasted time on components we knew wouldn't work. When Captivate became unreliable for my teammates, the team shifted to a screen-share model over Microsoft Teams, with one person driving while the others advised, which actually gave everyone visibility into the build process. As the most technical member of the team and the only one whose Captivate remained functional, I took on the majority of the building and editing work. When Captivate's built-in keyboard focus indicator failed to meet WCAG contrast and visibility standards and the platform offered no way to customize it, I located the HTML file inside the SCORM package and wrote CSS code directly to bring it into compliance, a solution that required going well outside the tool's intended workflow.
+            <br><br>
+            Our ID team met every other week during the planning and content development phases, increasing to one to two times per week once active building began. Over time the team developed organic roles: one ID handled scheduling and project organization, one served as the lead communicator and primary stakeholder contact, and I functioned as the technical lead and primary builder, though all three of us contributed across areas as needed. SME groups were engaged in separate meetings during the analysis phase, then brought together as a full group to consolidate and prioritize content. Four rounds of revision followed before legal review. When significant disagreements arose that the team couldn't resolve internally, they were escalated to the Office for Civil Rights, the department that commissioned the training, for a final decision, keeping the project moving without stalling on contested content.
+          </p>
+      </div>
+      <div class="flex justify-center gap-8 bg-[#333333] rounded-[20px] p-13 mt-15 text-center mb-20">
+        <div>
+          <h2 class="mb-6 text-white text-[40px]">Let's Connect</h2>
+          <a href="https://www.linkedin.com/in/-sam-abele" class="linkedin">Sam's LinkedIn</a>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
